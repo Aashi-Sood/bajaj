@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Interface</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>API Interface</h1>
+  
+  <form id="apiForm">
+    <textarea id="jsonData" placeholder='Enter JSON data (e.g., {"data": ["A", "B", "z"]})' rows="4" cols="50"></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div id="responseContainer">
+    <h3>Response:</h3>
+    <pre id="responseOutput"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
